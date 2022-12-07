@@ -11,9 +11,9 @@ implementation 'com.squareup.retrofit2:retrofit:2.9.0'      //Retrofit
 implementation 'com.squareup.retrofit2:converter-gson:2.6.2'  
 implementation 'com.squareup.picasso:picasso:2.8'           //圖片依賴項
 ```  
-3.建立JsonParse模型`CardItem.java`  
-4.建立Retrofit實例處理網路請求`ApiClient.java`  
-5.實作Retrofit Interface介面`ImageInterface.java`  
+3.建立JsonParse模型 `CardItem.java`  
+4.建立Retrofit實例處理網路請求 `ApiClient.java`  
+5.實作Retrofit Interface介面 `ImageInterface.java`  
 Retrofit可實作的HTTP註釋:  
 ```
 @GET  
@@ -24,4 +24,4 @@ Retrofit可實作的HTTP註釋:
 @HEAD
 ```  
 6.實作RecycleView Adapter `CardAdapter.java`  
-7.在MainActivity實作REST 並完成RecycleView的可視化`MainActivity.java`
+7.在MainActivity實作REST 並完成RecycleView的可視化 `MainActivity.java`
